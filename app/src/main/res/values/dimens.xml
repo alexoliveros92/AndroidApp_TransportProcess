@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">75dp</dimen>
+    <dimen name="deliver_item_height">130dp</dimen>
+    <dimen name="storehouse_item_height">110dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_email"
+        android:icon="@drawable/ic_done_black_24dp"
+        android:title="@string/delivered" />
+    <item
+        android:id="@+id/navigation_plus"
+        android:icon="@drawable/ic_error"
+        android:title="@string/incomplete" />
+</menu>

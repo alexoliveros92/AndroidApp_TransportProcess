@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/tittleAlertDialog"
+        android:layout_height="wrap_content"
+        android:text="@string/position"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/subTittleAlertDialog"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:id="@+id/titleItemSelected" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <RadioButton
+            style="@style/AlertDialog.AppCompat.myStyle"
+            android:text="@string/position_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio1"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/position_2"
+            style="@style/AlertDialog.AppCompat.myStyle"
+            android:id="@+id/radio2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:text="@string/position_3"
+            android:layout_height="wrap_content"
+            style="@style/AlertDialog.AppCompat.myStyle"
+            android:id="@+id/radio3"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:text="@string/Complements"
+            android:layout_height="wrap_content"
+            style="@style/AlertDialog.AppCompat.myStyle"
+            android:id="@+id/radio4"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:id="@+id/btnSelectedPosition"/>
+</LinearLayout>

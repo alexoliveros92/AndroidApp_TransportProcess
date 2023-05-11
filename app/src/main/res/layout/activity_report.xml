@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".report.ReportActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/report_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/toolBar"
+        app:titleTextColor="@android:color/white"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:title="Report"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/subTittleAlertDialog"
+        android:padding="12dp"
+        android:text="Select a core "/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="35sp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:id="@+id/resultSpinner"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:background="#e6ee9c"
+            android:padding="10dp"
+            android:layout_toRightOf="@+id/resultSpinner"
+            android:id="@+id/txtShowReport"
+            android:text="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"
+            android:background="#e6ee9c"
+            android:padding="10dp"
+            android:layout_toRightOf="@+id/resultSpinner"
+            android:id="@+id/delivered"
+            android:text="@string/delivered"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ReportRecyclerView"/>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transport Process</string>
+    <string name="subCategory2_name">Salchichas</string>
+    <string name="subCategory_name">Chorizos</string>
+    <string name="position">Posición</string>
+    <string name="position_1">posición 1</string>
+    <string name="position_2">posición 2</string>
+    <string name="line_one">Diario</string>
+    <string name="line_two">Franks</string>
+    <string name="line_three">Bajo</string>
+    <string name="line_seydelmann">Seydelmann</string>
+    <string name="line_weiler">Weiler</string>
+    <string name="line_cutter">Cutter</string>
+    <string name="line_four">Especial</string>
+    <string name="request_list">Lista de pedidos</string>
+    <string name="Complements">complementos</string>
+    <string name="Complements1">complementos 1</string>
+    <string name="Complements2">complementos 2</string>
+    <string name="Complements3">complementos 3</string>
+    <string name="position_3">posición 3</string>
+    <string name="position_4">posición 4</string>
+    <string name="position_5">posición 5</string>
+    <string name="ordered">Ordenado</string>
+    <string name="preparing">Preparando</string>
+    <string name="delivered">Entregado</string>
+    <string name="incomplete">Incompleto</string>
+    <string name="incomplete2">incompleto</string>
+    <string name="completed">Completo</string>
+    <string name="order_list">Lista de ordenes</string>
+    <string name="collection_requests">Pedidos</string>
+    <string name="hot_dog">Chorizos</string>
+    <string name="sausage">Salchichas</string>
+    <string name="state">Estado</string>
+    <string name="signInProduction">Producción</string>
+    <string name="signInStorehouse">Descongelado</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="qu_te_gustar_a_ordenar">¿Qué te gustaría ordenar?</string>
+
+</resources>

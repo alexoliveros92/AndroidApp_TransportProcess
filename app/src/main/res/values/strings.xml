@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Transport Process</string>
+    <string name="subCategory2_name">Sausages Line</string>
+    <string name="subCategory_name">Chorizos Line</string>
+    <string name="position">Position</string>
+    <string name="position_1">position 1</string>
+    <string name="position_2">position 2</string>
+    <string name="line_one">Dairy</string>
+    <string name="line_two">Franks</string>
+    <string name="line_three">Down</string>
+    <string name="line_seydelmann">Seydelmann</string>
+    <string name="line_weiler">Weiler</string>
+    <string name="line_cutter">Cutter</string>
+    <string name="line_four">Special</string>
+    <string name="request_list">Request list</string>
+    <string name="Complements">complements</string>
+    <string name="Complements1">complements 1</string>
+    <string name="Complements2">complements 2</string>
+    <string name="Complements3">complements 3</string>
+    <string name="position_3">position 3</string>
+    <string name="position_4">position 4</string>
+    <string name="position_5">position 5</string>
+    <string name="ordered">Ordered</string>
+    <string name="preparing">Preparing</string>
+    <string name="delivered">Delivered</string>
+    <string name="incomplete">Incomplete</string>
+    <string name="incomplete2">incomplete</string>
+    <string name="completed">Completed</string>
+    <string name="order_list">Order List</string>
+    <string name="collection_requests">Requests</string>
+    <string name="hot_dog">Chorizos</string>
+    <string name="sausage">Salchichas</string>
+    <string name="state">State</string>
+    <string name="signInProduction">Production</string>
+    <string name="signInStorehouse">Defrosted</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="qu_te_gustar_a_ordenar">¿Qué te gustaría ordenar?</string>
+</resources>

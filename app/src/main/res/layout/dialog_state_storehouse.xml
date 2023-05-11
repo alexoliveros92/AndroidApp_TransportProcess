@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tittleAlertDialog"
+        android:text="State"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Core"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleStoreItemSelected"
+        style="@style/subTittleAlertDialog"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            style="@style/AlertDialog.AppCompat.myStyle"
+            android:text="@string/ordered"
+            android:checked="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioStore1"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preparing"
+            style="@style/AlertDialog.AppCompat.myStyle"
+            android:id="@+id/radioStore2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:text="@string/delivered"
+            android:layout_height="wrap_content"
+            style="@style/AlertDialog.AppCompat.myStyle"
+            android:id="@+id/radioStore3"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:text="@string/incomplete"
+            android:layout_height="wrap_content"
+            style="@style/AlertDialog.AppCompat.myStyle"
+            android:id="@+id/radioStore4"/>
+    </RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Why is it incomplete?"
+        android:id="@+id/edtNoOrder"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textAllCaps="true"
+        android:id="@+id/btnSelectedState"/>
+
+</LinearLayout>

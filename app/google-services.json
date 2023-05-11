@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358226790267",
+    "firebase_url": "https://transport-process-cmi.firebaseio.com",
+    "project_id": "transport-process-cmi",
+    "storage_bucket": "transport-process-cmi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358226790267:android:448969ba523b244db25fde",
+        "android_client_info": {
+          "package_name": "com.example.android.transportprocess2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358226790267-qkdgfvoin4l1ij3qn4h4bump2upuoho6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARSJAFpBR20eH8-xIhlEWQwtzUcgcXZ7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358226790267-qkdgfvoin4l1ij3qn4h4bump2upuoho6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
